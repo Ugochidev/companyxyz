@@ -4,8 +4,8 @@ import helmet from "helmet";
 import "express-async-errors";
 import environment from "./config/environment";
 import logger from "morgan";
-import routes from "./shared/routes"
-import mongoose from 'mongoose';
+import routes from "./shared/routes";
+import mongoose from "mongoose";
 
 export default class App {
   app: express.Application;

@@ -6,11 +6,7 @@ const WardSchema: Schema = new Schema<IWard>(
     lgaId: {
       type: Schema.Types.ObjectId,
       required: true,
-      ref: "State",
-    },
-    _id: {
-      type: String,
-      required: true,
+      ref: "Lga",
     },
     name: {
       type: String,

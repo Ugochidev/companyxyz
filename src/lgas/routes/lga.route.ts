@@ -4,6 +4,6 @@ import CreateLga from "../controllers/createLga.controller";
 const router = Router();
 const createLga = new CreateLga();
 
-router.post("createLga", createLga.create);
+router.post("/", createLga.create);
 
 export default router;

@@ -3,10 +3,6 @@ import IState from "../dtos/IStateDTO";
 
 const StateSchema: Schema = new Schema<IState>(
   {
-    _id: {
-      type: String,
-      required: true,
-    },
     name: {
       type: String,
       required: true,

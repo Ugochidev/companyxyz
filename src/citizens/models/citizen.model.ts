@@ -6,12 +6,9 @@ const CitizenSchema: Schema = new Schema<ICitizen>(
     wardId: {
       type: Schema.Types.ObjectId,
       required: true,
-      ref: "State",
+      ref: "Ward",
     },
-    _id: {
-      type: String,
-      required: true,
-    },
+  
     fullName: {
       type: String,
       required: true,

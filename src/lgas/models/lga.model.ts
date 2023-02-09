@@ -8,10 +8,6 @@ const LgaSchema: Schema = new Schema<ILga>(
       required: true,
       ref: "State",
     },
-    _id: {
-      type: String,
-      required: true,
-    },
     name: {
       type: String,
       required: true,
